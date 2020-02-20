@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="./css/fa.min.css">
 	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
 	<link rel="stylesheet" href="./css/base.css">
 	<link rel="stylesheet" href="./css/index.css">
 	<script src="./js/jquery-3.4.1.min.js"></script>
@@ -15,17 +16,20 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/imagesloaded.pkgd.min.js"></script>
 	<script src="./js/wow.min.js"></script>
+	<script src="./js/jquery.mb.YTPlayer.min.js"></script>
 </head>
 <body>
-	<!-- Header -->
-	<header class="header"></header>
-	<!-- Main -->
 	<main class="main-wrap">
-		<iframe width="100%" height="600" src="https://www.youtube.com/embed/BaqCwJ2yZ5k?autoplay=1&muted=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div id="video" class="player" data-property="{videoURL:'https://youtu.be/5axCdbbmhQw',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}">My video</div>
+		<div class="bg-wrap">
+			<div class="bg-gap"></div>
+			<div class="bg-cont">
+				<h1>잘 되나요?</h1>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat harum pariatur illo! Nisi iusto sit blanditiis ipsum quia? Eaque hic esse nisi itaque ut rem praesentium veniam maiores maxime sint.</h3>
+			</div>
+			<div class="bg-gap"></div>
+		</div>
 	</main>
-	<!--  -->
-	<!-- Footer -->
-	<footer class="footer"></footer>
 	<script src="./js/index.js"></script>
 </body>
 </html>
